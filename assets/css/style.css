@@ -20,7 +20,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: #f0f2f5;
 }
 
@@ -58,6 +58,7 @@ body {
     border-radius: 10px;
     width: 490px;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-top: 120px;
 }
 
 .fb-bio-hader {
@@ -68,6 +69,8 @@ body {
     border: 1px solid #ccc;
     height: 65px;
     border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
 }
 .fb-bio-edit textarea:hover{
  background-color: #e6e7ea;
@@ -79,14 +82,22 @@ body {
 
 .fb-bio-edit textarea::placeholder{
     text-align: center;
-    padding: 10px 0px;
     font-size: 14px;
 }
 .fb-bio-edit p {
     text-align: right;
     font-size: 12px;
 }
-/* .fb-bio-edit,
+.fb-bio-edit .btns{
+    text-align: right;
+    margin-top: 10px;
+}
+.fb-bio-show p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fb-bio-edit,
 .fb-bio-show {
     display: none;
-} */
+}
