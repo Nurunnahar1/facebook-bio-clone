@@ -1,5 +1,92 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
 }
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+input:focus , textarea:focus {
+    outline: none;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+.btn-primary {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #e4e6eb;
+}
+
+.btn-primary:hover {
+    background-color: #dadbe1;
+}
+
+.btn-regular {
+    width: auto;
+}
+
+.btn-blue {
+    background-color: #0866ff;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #2061f3;
+}
+
+.fb-bio-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 490px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.fb-bio-hader {
+    padding: 10px 0px;
+}
+.fb-bio-edit textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 65px;
+    border-radius: 5px;
+}
+.fb-bio-edit textarea:hover{
+ background-color: #e6e7ea;
+}
+.fb-bio-edit textarea:focus{
+ background-color: #fff;
+ border: 1px solid #0866ff;
+}
+
+.fb-bio-edit textarea::placeholder{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.fb-bio-edit p {
+    text-align: right;
+    font-size: 12px;
+}
+/* .fb-bio-edit,
+.fb-bio-show {
+    display: none;
+} */
